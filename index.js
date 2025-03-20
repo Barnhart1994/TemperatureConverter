@@ -7,8 +7,9 @@
  */
 function convertToCelsius(f) {
   const C = (5 / 9) * (f - 32);
-  return C;
-  // TODO
+  
+  return Math.floor(C)
+  
 }
 
 /**
